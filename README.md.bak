@@ -1,0 +1,37 @@
+# Ask Osho - Question Answering System
+
+This is a Streamlit application that allows users to ask questions and receive answers from Osho's teachings. The application uses a vector database of Osho's books to find relevant passages and provide meaningful answers.
+
+## Features
+
+- Ask questions about Osho's teachings
+- Choose from example questions or ask your own
+- Get answers with references to specific books
+- Clean and intuitive user interface
+- Additional book recommendations for further reading
+
+## How it Works
+
+The application uses:
+- Sentence transformers for text embeddings
+- ChromaDB for vector similarity search
+- Streamlit for the user interface
+
+## Usage
+
+1. Select an example question or type your own
+2. Click "Please Answer Osho"
+3. View the answer and book references
+
+## Development
+
+To run this application locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+## Deployment
+
+This application is deployed on Hugging Face Spaces.
